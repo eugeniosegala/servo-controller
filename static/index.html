@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Servo controller</title>
+
+    <meta name="description" content="Servo controller">
+    <meta name="author" content="Eugenio Segala">
+
+    <script>
+      const fetchServo = (param) => {
+        fetch(param);
+      }
+    </script>
+</head>
+
+<body>
+
+<button onclick="fetchServo('/left')" type="button">LEFT</button>
+<br/><br/>
+<button onclick="fetchServo('/top')" type="button">UP</button>
+<br/><br/>
+<button onclick="fetchServo('/right')" type="button">RIGHT</button>
+
+</body>
+</html>
